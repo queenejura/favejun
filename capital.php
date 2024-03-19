@@ -11,6 +11,12 @@
 <!--iubenda--> 
 <script type="text/javascript">
     var _iub = _iub || [];
+	<loginin>
+		{resectpassword)
+		 {forgotten=pasword)
+		  <brk>
+			  <login>
+			  
     _iub.csConfiguration = {
         "enableRemoteConsent":true,
         "consentOnContinuedBrowsing":false,
@@ -67,6 +73,14 @@
 <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 
 <!-- Google Tag Manager -->
+	<update profile>
+		{account=name)
+		{account+number}
+<add card>
+	{choose=payment=method}
+	{choose=card}
+	{payment=information}
+	<recieve=payment>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
