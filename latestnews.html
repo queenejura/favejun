@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en-GB" >
+<head>
+		<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+			<title>OS Concepts &#8211; Transform societies!</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="OS Concepts &raquo; Feed" href="https://www.osconcepts.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="OS Concepts &raquo; Comments Feed" href="https://www.osconcepts.com/comments/feed/" />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='perfect-scrollbar-css' href='https://www.osconcepts.com/wp-content/plugins/woo-smart-wishlist/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css' media='all' />
+<link rel='stylesheet' id='perfect-scrollbar-wpc-css' href='https://www.osconcepts.com/wp-content/plugins/woo-smart-wishlist/assets/libs/perfect-scrollbar/css/custom-theme.css' media='all' />
+<link rel='stylesheet' id='woosw-icons-css' href='https://www.osconcepts.com/wp-content/plugins/woo-smart-wishlist/assets/css/icons.css' media='all' />
+<link rel='stylesheet' id='woosw-frontend-css' href='https://www.osconcepts.com/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css' media='all' />
+<style id='woosw-frontend-inline-css'>
+.woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-notice { background-color: #5fbd74; } .woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-popup-content-bot-inner a:hover { color: #5fbd74; border-color: #5fbd74; } 
+</style>
+<link rel='stylesheet' id='font-gordita-css' href='https://www.osconcepts.com/wp-content/themes/edumall/assets/fonts/gordita/font-gordita.min.css' media='all' />
+<link rel='stylesheet' id='font-awesome-pro-css' href='https://www.osconcepts.com/wp-content/themes/edumall/assets/fonts/awesome/css/fontawesome-all.min.css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/swiper/css/swiper.min.css' media='all' />
+<link rel='stylesheet' id='lightgallery-css' href='https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/lightGallery/css/lightgallery.min.css' media='all' />
+<link rel='stylesheet' id='edumall-style-css' href='https://www.osconcepts.com/wp-content/themes/edumall/style.css' media='all' />
+<style id='edumall-style-inline-css'>
+:root {
+				--edumall-typography-body-font-family: Gordita;
+				--edumall-typography-body-font-size: 14px;
+				--edumall-typography-body-font-weight: 400;
+				--edumall-typography-body-line-height: 1.86;
+				--edumall-typography-body-letter-spacing: 0em;
+				--edumall-typography-headings-font-family: inherit;
+				--edumall-typography-headings-font-weight: 500;
+				--edumall-typography-headings-line-height: 1.3;
+				--edumall-typography-headings-letter-spacing: 0em;
+				--edumall-color-primary: #0071dc;
+				--edumall-color-primary-rgb: 0, 113, 220;
+				--edumall-color-secondary: #ffc221;
+				--edumall-color-secondary-rgb: 255, 194, 33;
+				--edumall-color-third: #031f42;
+				--edumall-color-text: #696969;
+				--edumall-color-text-bit-lighten: #7e7e7e;
+				--edumall-color-text-lighten: #ababab;
+				--edumall-color-heading: #252525;
+				--edumall-color-link: #696969;
+				--edumall-color-link-hover: #0071dc;
+				--edumall-color-box-white-background: #fff;
+				--edumall-color-box-white-border: #ededed;
+				--edumall-color-box-grey-background: #f8f8f8;
+				--edumall-color-box-light-grey-background: #f9f9fb;
+				--edumall-color-box-fill-separator: #eee;
+				--edumall-color-box-border: #eee;
+				--edumall-color-box-border-lighten: #ededed;
+				--edumall-color-form-text: #252525;
+				--edumall-color-form-border: #f8f8f8;
+				--edumall-color-form-background: #f8f8f8;
+				--edumall-color-form-focus-text: #252525;
+				--edumall-color-form-focus-border: #0071dc;
+				--edumall-color-form-focus-background: #fff;
+				--edumall-color-sub-menu-border: #ededed;
+				--edumall-color-sub-menu-background: #fff;
+				--tutor-color-primary: #0071dc;
+				--tutor-color-primary-rgb: 0, 113, 220;
+				--tutor-border-color:#eee;
+			}
+.boxed{max-width:1200px}::-moz-selection{color:#fff;background-color:#0071dc}::selection{color:#fff;background-color:#0071dc}.primary-fill-color{fill:#0071dc}mark,.primary-color.primary-color,.growl-close:hover,.link-transition-02,.edumall-infinite-loader,.edumall-blog-caption-style-03 .tm-button,.tm-portfolio .post-categories a:hover,.tm-portfolio .post-title a:hover,.edumall-timeline.style-01 .title,.edumall-timeline.style-01 .timeline-dot,.tm-google-map .style-signal .animated-dot,.edumall-list .marker,.tm-social-networks .link:hover,.tm-social-networks.style-solid-rounded-icon .link,.edumall-team-member-style-01 .social-networks a:hover,.edumall-modern-carousel-style-02 .slide-button,.tm-slider a:hover .heading,.woosw-area .woosw-inner .woosw-content .woosw-content-bot .woosw-content-bot-inner .woosw-page a:hover,.woosw-continue:hover,.tm-menu .menu-price,.woocommerce-widget-layered-nav-list a:hover,.blog-nav-links h6:before,.page-main-content .search-form .search-submit,.page-sidebar .widget_pages .current-menu-item>a,.page-sidebar .widget_nav_menu .current-menu-item>a,.comment-list .comment-actions a:hover,.portfolio-nav-links.style-01 .inner>a:hover,.portfolio-nav-links.style-02 .nav-list .hover,.edumall-nice-select-wrap .edumall-nice-select li.selected:before,.elementor-widget-tm-icon-box.edumall-icon-box-style-01 .edumall-box:hover div.tm-button.style-text,.elementor-widget-tm-icon-box.edumall-icon-box-style-01 a.tm-button.style-text:hover,.tm-image-box.edumall-box:hover div.tm-button.style-text,.tm-image-box a.tm-button.style-text:hover,form.isw-swatches.isw-swatches--in-single .isw-swatch--isw_text .isw-term.isw-enabled:hover,form.isw-swatches.isw-swatches--in-single .isw-swatch--isw_text .isw-term.isw-selected,.wishlist-btn.style-02 a:hover,.compare-btn.style-02 a:hover,.order-by .selected-order a,.edumall-product-price-filter .current-state,.cart-collaterals .order-total .amount,.woocommerce-mini-cart__empty-message .empty-basket,.woocommerce .cart_list.product_list_widget a:hover,.woocommerce .cart.shop_table td.product-name a:hover,.woocommerce ul.product_list_widget li .product-title:hover,.entry-product-meta a:hover,.edumall-product .woocommerce-loop-product__title a:hover,.edumall-product .loop-product__category a:hover,.popup-product-quick-view .product_title a:hover,.woocommerce .wc_payment_methods .payment-selected .payment_title,.woocommerce .wc_payment_methods .payment_title:hover,.woocommerce-MyAccount-content .woocommerce-Address-title a,.woosw-area.woosw-area .woosw-inner .woosw-content .woosw-content-mid table.woosw-content-items .woosw-content-item .woosw-content-item--title a:hover,.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th a:hover,.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items .button,.woocommerce nav.woocommerce-pagination ul li a:hover{color:#0071dc}.primary-background-color,.link-transition-02:after,.wp-block-tag-cloud a:hover,.wp-block-calendar #today,.edumall-nice-select-wrap .edumall-nice-select li:hover,.edumall-progress .progress-bar,.edumall-link-animate-border .heading-primary a mark:after,.edumall-blog-caption-style-03 .tm-button.style-bottom-line .button-content-wrapper:after,.hint--primary:after,[data-fp-section-skin='dark'] #fp-nav ul li a span,[data-fp-section-skin='dark'] .fp-slidesNav ul li a span,.page-scroll-up,.top-bar-01 .top-bar-button,.tm-social-networks.style-flat-rounded-icon .link:hover,.tm-swiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill,.tm-social-networks.style-flat-rounded-icon .link,.tm-social-networks.style-solid-rounded-icon .link:hover,.portfolio-overlay-group-01.portfolio-overlay-colored-faded .post-overlay,.edumall-modern-carousel .slide-tag,.edumall-light-gallery .edumall-box .edumall-overlay,.edumall-modern-carousel-style-02 .slide-button:after,.tm-gradation .item:hover .count,.nav-links a:hover,.single-post .entry-post-feature.post-quote,.entry-portfolio-feature .gallery-item .overlay,.widget_calendar #today,.page-main-content .search-form .search-submit:hover,.woocommerce-notice,.wishlist-btn.style-01 a:hover,.compare-btn.style-01 a:hover,.edumall-product.style-grid .quick-view-icon:hover,.edumall-product.style-grid .woocommerce_loop_add_to_cart_wrap a:hover,.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items .button:hover,.woocommerce nav.woocommerce-pagination ul li span.current,.woocommerce-info,.woocommerce-message,.woocommerce-MyAccount-navigation .is-active a,.woocommerce-MyAccount-navigation a:hover,.edumall-wp-widget-product-layered-nav ul.show-display-check-list .chosen>a:before,.edumall-wp-widget-product-categories-layered-nav ul.show-display-check-list .chosen>a:before{background-color:#0071dc}.primary-background-color-important,.lg-progress-bar .lg-progress{background-color:#0071dc!important}.wp-block-quote,.wp-block-quote.has-text-align-right,.wp-block-quote.has-text-align-right,.edumall-nice-select-wrap.focused .edumall-nice-select-current,.edumall-nice-select-wrap .edumall-nice-select-current:hover,.page-search-popup .search-field,.tm-social-networks.style-solid-rounded-icon .link,.tm-popup-video.type-button .video-play,.widget_pages .current-menu-item,.widget_nav_menu .current-menu-item,.insight-core-bmw .current-menu-item,form.isw-swatches.isw-swatches--in-single .isw-swatch--isw_text .isw-term.isw-selected,.wishlist-btn.style-01 a:hover,.compare-btn.style-01 a:hover,.edumall-wp-widget-product-layered-nav ul.show-display-check-list a:hover:before,.edumall-wp-widget-product-categories-layered-nav ul.show-display-check-list a:hover:before,body.woocommerce-cart table.cart td.actions .coupon .input-text:focus,.woocommerce.single-product div.product .images .thumbnails .item img:hover{border-color:#0071dc}.single-product .woo-single-gallery .edumall-thumbs-swiper .swiper-slide:hover img,.single-product .woo-single-gallery .edumall-thumbs-swiper .swiper-slide-thumb-active img,.lg-outer .lg-thumb-item.active,.lg-outer .lg-thumb-item:hover{border-color:#0071dc!important}.hint--primary.hint--top-left:before,.hint--primary.hint--top-right:before,.hint--primary.hint--top:before{border-top-color:#0071dc}.hint--primary.hint--right:before{border-right-color:#0071dc}.hint--primary.hint--bottom-left:before,.hint--primary.hint--bottom-right:before,.hint--primary.hint--bottom:before,.mini-cart .widget_shopping_cart_content,.single-product .woocommerce-tabs li.active{border-bottom-color:#0071dc}.hint--primary.hint--left:before,.tm-popup-video.type-button .video-play-icon:before{border-left-color:#0071dc}.edumall-accordion-style-01 .edumall-accordion .accordion-section.active .accordion-header,.edumall-accordion-style-01 .edumall-accordion .accordion-section:hover .accordion-header{background-color:rgba(0,113,220,0.7)}.portfolio-overlay-group-01 .post-overlay{background-color:rgba(0,113,220,0.8)}.secondary-color-important{color:#ffc221 !important}.secondary-background-color,.hint--secondary:after,.tm-button.style-flat.button-secondary-lighten:after{background-color:#ffc221}.edumall-event-carousel .event-overlay-background{background-color:rgba(255,194,33,0.6)}.tm-zoom-meeting .zoom-countdown .countdown-content .text{color:rgba(255,194,33,0.7)}.tm-button.style-flat.button-secondary-lighten:before{background-color:rgba(255,194,33,0.3)}.tm-button.style-flat.button-secondary-lighten{color:#031f42 !important}.hint--secondary.hint--top-left:before,.hint--secondary.hint--top-right:before,.hint--secondary.hint--top:before{border-top-color:#ffc221}.hint--secondary.hint--right:before{border-right-color:#ffc221}.hint--secondary.hint--bottom-left:before,.hint--secondary.hint--bottom-right:before,.hint--secondary.hint--bottom:before{border-bottom-color:#ffc221}.hint--secondary.hint--left:before{border-left-color:#ffc221}.secondary-border-color{border-color:#ffc221}.secondary-fill-color{fill:#ffc221}.lg-backdrop{background-color:#000 !important}.page-mobile-main-menu>.inner{background-color:#3f3a64}
+</style>
+<link rel='stylesheet' id='growl-css' href='https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/growl/css/jquery.growl.min.css' media='all' />
+<link rel='stylesheet' id='edumall-woocommerce-css' href='https://www.osconcepts.com/wp-content/themes/edumall/woocommerce.css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://www.osconcepts.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://www.osconcepts.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-4783-css' href='https://www.osconcepts.com/wp-content/uploads/elementor/css/post-4783.css' media='all' />
+<link rel='stylesheet' id='elementor-post-619-css' href='https://www.osconcepts.com/wp-content/uploads/elementor/css/post-619.css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://www.osconcepts.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script src="https://www.osconcepts.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View basket","cart_url":"https:\/\/www.osconcepts.com\/cart-2\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js" data-wp-strategy="defer"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+</script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<script id="wc-cart-fragments-js-extra">
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_424922cb33471c464700ae4f33426314","fragment_name":"wc_fragments_424922cb33471c464700ae4f33426314","request_timeout":"5000"};
+</script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js" defer data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://www.osconcepts.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.osconcepts.com/wp-json/wp/v2/pages/619" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.osconcepts.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<meta name="generator" content="WooCommerce 9.1.4" />
+<link rel="canonical" href="https://www.osconcepts.com/" />
+<link rel='shortlink' href='https://www.osconcepts.com/' />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.23.4; features: e_optimized_css_loading, additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style id='wp-fonts-local'>
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<link rel="icon" href="https://www.osconcepts.com/wp-content/uploads/2024/02/os-concepts-icon.png" sizes="32x32" />
+<link rel="icon" href="https://www.osconcepts.com/wp-content/uploads/2024/02/os-concepts-icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.osconcepts.com/wp-content/uploads/2024/02/os-concepts-icon.png" />
+<meta name="msapplication-TileImage" content="https://www.osconcepts.com/wp-content/uploads/2024/02/os-concepts-icon.png" />
+<style id="kirki-inline-styles">button, input[type="button"], input[type="reset"], input[type="submit"], .wp-block-button__link, .button, .wc-forward, .button.button-alt:hover, .elementor-button{color:#fff;border-color:#0071dc;background-color:#0071dc;}.wp-block-button.is-style-outline{color:#0071dc;}button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .wp-block-button__link:hover, .button:hover, .button:focus, .button-alt, .wc-forward:hover, .wc-forward:focus, .elementor-button:hover{color:#031f42;border-color:#ffc221;background-color:#ffc221;}.wp-block-button.is-style-outline .wp-block-button__link:hover{color:#ffc221;}.tm-button.style-flat{color:#fff;border-color:#0071dc;}.tm-button.style-flat:before{background-color:#0071dc;}.tm-button.style-flat:hover{color:#031f42;border-color:#ffc221;}.tm-button.style-flat:after{background-color:#ffc221;}.tm-button.style-border, .tm-button.style-thick-border{color:#0071dc;border-color:#0071dc;}.tm-button.style-border:before, .tm-button.style-thick-border:before{background-color:rgba(0, 0, 0, 0);}.tm-button.style-border:hover, .tm-button.style-thick-border:hover{color:#fff;border-color:#0071dc;}.tm-button.style-border:after, .tm-button.style-thick-border:after{background-color:#0071dc;}.top-bar-01{padding-top:0px;padding-bottom:0px;border-bottom-width:1px;font-size:13px;line-height:1.85;}.top-bar-01 a{font-size:13px;line-height:1.85;}.header-dark .top-bar-01{background-color:#031f42;border-bottom-color:rgba(0, 0, 0, 0);color:#fff;}.header-dark .top-bar-01 .top-bar-user-links a + a:before, .header-dark .top-bar-01 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.4);}.header-dark .top-bar-01 a{color:#fff;}.header-dark .top-bar-01 a:hover, .top-bar-01 a:focus{color:#ffc221;}.header-dark .top-bar-01 .info-list .info-icon{color:#ffc221;}.header-dark .top-bar-01 .info-list .info-link:hover .info-icon{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-01{background-color:rgba(0, 0, 0, 0);border-bottom-color:rgba(255, 255, 255, 0.1);color:#fff;}.header-light:not(.headroom--not-top) .top-bar-01 .top-bar-user-links a + a:before, .header-light:not(.headroom--not-top) .top-bar-01 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.35);}.header-light:not(.headroom--not-top) .top-bar-01 a{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-01 a:hover, .header-light:not(.headroom--not-top) .top-bar-01 a:focus{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-01 .info-list .info-icon{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-01 .info-list .info-link:hover .info-icon{color:#ffc221;}.top-bar-02{padding-top:6px;padding-bottom:6px;border-bottom-width:1px;font-size:15px;font-weight:400;line-height:1.74;background-color:#031f42;border-bottom-color:rgba(0, 0, 0, 0);color:#fff;}.top-bar-02 a{font-size:15px;font-weight:500;line-height:1.74;color:#fff;}.top-bar-02 .top-bar-user-links a + a:before, .top-bar-02 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.4);}.top-bar-02 a:hover, .top-bar-02 a:focus{color:#ffc221;}.top-bar-02 .info-list .info-icon{color:#ffc221;}.top-bar-02 .info-list .info-link:hover .info-icon{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-02{background-color:#031f42;border-bottom-color:#031f42;color:#fff;}.header-light:not(.headroom--not-top) .top-bar-02 .top-bar-user-links a + a:before, .header-light:not(.headroom--not-top) .top-bar-02 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.35);}.header-light:not(.headroom--not-top) .top-bar-02 a{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-02 a:hover, .header-light:not(.headroom--not-top) .top-bar-02 a:focus{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-02 .info-list .info-icon{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-02 .info-list .info-link:hover .info-icon{color:#ffc221;}.top-bar-03{padding-top:0px;padding-bottom:0px;border-bottom-width:1px;font-size:13px;font-weight:400;line-height:1.85;background-color:#EBEEF6;border-bottom-color:#eee;color:#696969;}.top-bar-03 a{font-size:13px;font-weight:500;line-height:1.85;color:#696969;}.top-bar-03 .top-bar-user-links a + a:before, .top-bar-03 .top-bar-info .info-item + .info-item:before{background:#AAACB2;}.top-bar-03 a:hover, .top-bar-03 a:focus{color:#0071dc;}.top-bar-03 .info-list .info-icon{color:#0071dc;}.top-bar-03 .info-list .info-link:hover .info-icon{color:#0071dc;}.top-bar-03 .social-link{color:#333;}.top-bar-03 .social-link:hover{color:#0071dc;}.header-light:not(.headroom--not-top) .top-bar-03{background-color:rgba(0, 0, 0, 0);border-bottom-color:rgba(255, 255, 255, 0.1);color:#fff;}.header-light:not(.headroom--not-top) .top-bar-03 .top-bar-user-links a + a:before, .header-light:not(.headroom--not-top) .top-bar-03 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.35);}.header-light:not(.headroom--not-top) .top-bar-03 a{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-03 a:hover, .header-light:not(.headroom--not-top) .top-bar-03 a:focus{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-03 .info-list .info-icon{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-03 .info-list .info-link:hover .info-icon{color:#ffc221;}.top-bar-04{padding-top:0px;padding-bottom:0px;border-bottom-width:1px;font-size:13px;font-weight:400;line-height:1.85;background-color:#fff;border-bottom-color:#eee;color:#696969;}.top-bar-04 a{font-size:13px;font-weight:500;line-height:1.85;color:#696969;}.top-bar-04 .top-bar-info .info-item + .info-item:before, .top-bar-04 .top-bar-right .top-bar-wrap div + div:before{background:#e5e5e5;}.top-bar-04 a:hover, .top-bar-04 a:focus{color:#0071dc;}.top-bar-04 .info-list .info-icon{color:#0071dc;}.top-bar-04 .info-list .info-link:hover .info-icon{color:#0071dc;}.top-bar-04 .social-link{color:#333;}.top-bar-04 .social-link:hover{color:#0071dc;}.header-light:not(.headroom--not-top) .top-bar-04{background-color:rgba(0, 0, 0, 0);border-bottom-color:rgba(255, 255, 255, 0.1);color:#fff;}.header-light:not(.headroom--not-top) .top-bar-04 .top-bar-user-links a + a:before, .header-light:not(.headroom--not-top) .top-bar-04 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.35);}.header-light:not(.headroom--not-top) .top-bar-04 a{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-04 a:hover, .header-light:not(.headroom--not-top) .top-bar-04 a:focus{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-04 .info-list .info-icon{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-04 .info-list .info-link:hover .info-icon{color:#ffc221;}.top-bar-05{padding-top:0px;padding-bottom:0px;border-bottom-width:1px;font-size:13px;font-weight:400;line-height:1.85;}.top-bar-05 a{font-size:13px;font-weight:500;line-height:1.85;}.header-dark .top-bar-05{background-color:#031f42;border-bottom-color:rgba(0, 0, 0, 0);color:#fff;}.header-dark .top-bar-05 .top-bar-user-links a + a:before, .header-dark .top-bar-05 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.4);}.header-dark .top-bar-05 a{color:#fff;}.header-dark .top-bar-05 a:hover, .top-bar-05 a:focus{color:#ffc221;}.header-dark .top-bar-05 .info-list .info-icon{color:#ffc221;}.header-dark .top-bar-05 .info-list .info-link:hover .info-icon{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-05{background-color:rgba(0, 0, 0, 0);border-bottom-color:rgba(255, 255, 255, 0.1);color:#fff;}.header-light:not(.headroom--not-top) .top-bar-05 .top-bar-user-links a + a:before, .header-light:not(.headroom--not-top) .top-bar-05 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.35);}.header-light:not(.headroom--not-top) .top-bar-05 a{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-05 a:hover, .header-light:not(.headroom--not-top) .top-bar-05 a:focus{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-05 .info-list .info-icon{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-05 .info-list .info-link:hover .info-icon{color:#ffc221;}.top-bar-06{padding-top:2px;padding-bottom:2px;border-bottom-width:0px;font-size:16px;font-weight:500;line-height:1.625;background-color:#FDEFEE;border-bottom-color:rgba(0, 0, 0, 0);color:#000;}.top-bar-06 a{font-size:16px;font-weight:700;line-height:1.625;color:#000;}.top-bar-06 .top-bar-user-links a + a:before, .top-bar-06 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.4);}.top-bar-06 a:hover, .top-bar-06 a:focus{color:#0071DC;}.top-bar-06 .info-list .info-icon{color:#ffc221;}.top-bar-06 .info-list .info-link:hover .info-icon{color:#ffc221;}.header-light:not(.headroom--not-top) .top-bar-06{background-color:#FDEFEE;border-bottom-color:#031f42;color:#fff;}.header-light:not(.headroom--not-top) .top-bar-06 .top-bar-user-links a + a:before, .header-light:not(.headroom--not-top) .top-bar-06 .top-bar-info .info-item + .info-item:before{background:rgba(255, 255, 255, 0.35);}.header-light:not(.headroom--not-top) .top-bar-06 a{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-06 a:hover, .header-light:not(.headroom--not-top) .top-bar-06 a:focus{color:#2A906A;}.header-light:not(.headroom--not-top) .top-bar-06 .info-list .info-icon{color:#fff;}.header-light:not(.headroom--not-top) .top-bar-06 .info-list .info-link:hover .info-icon{color:#ffc221;}.headroom--not-top .page-header-inner .header-wrap{min-height:80px;padding-top:0px!important;padding-bottom:0px!important;}#page-header.headroom--not-top .page-header-inner{background:#ffffff;background-color:#ffffff;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-header.headroom--not-top .header-icon, .page-header.headroom--not-top .wpml-ls-item-toggle{color:#111 !important;}.page-header.headroom--not-top .header-icon:hover{color:#111 !important;}.page-header.headroom--not-top .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#111!important;}.page-header.headroom--not-top .header-social-networks a{color:#111 !important;}.page-header.headroom--not-top .header-social-networks a:hover{color:#111 !important;}.page-header.headroom--not-top .menu--primary > ul > li > a{color:#111 !important;}.page-header.headroom--not-top .menu--primary > li:hover > a, .page-header.headroom--not-top .menu--primary > ul > li > a:hover, .page-header.headroom--not-top .menu--primary > ul > li > a:focus, .page-header.headroom--not-top .menu--primary > ul > .current-menu-ancestor > a, .page-header.headroom--not-top .menu--primary > ul > .current-menu-item > a{color:#0071dc !important;}.header-sticky-button.tm-button{color:#111;border-color:#eee;}.header-sticky-button.tm-button:before{background:rgba(17, 17, 17, 0);}.header-sticky-button.tm-button:hover{color:#fff;border-color:#111;}.header-sticky-button.tm-button:after{background:#111;}#page-header.headroom--not-top .search-field{color:#696969;border-color:#f5f5f5;background:#f5f5f5;}#page-header.headroom--not-top .search-field:focus{color:#333;border-color:#0071dc;background:#fff;}.edumall-dark-scheme #page-header.headroom--not-top .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .page-header.headroom--not-top .header-icon, .edumall-dark-scheme .page-header.headroom--not-top .wpml-ls-item-toggle{color:#fff !important;}.edumall-dark-scheme .page-header.headroom--not-top .header-icon:hover{color:#ffc221 !important;}.edumall-dark-scheme .page-header.headroom--not-top .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221!important;}.edumall-dark-scheme .page-header.headroom--not-top .header-social-networks a{color:#111 !important;}.edumall-dark-scheme .page-header.headroom--not-top .header-social-networks a:hover{color:#111 !important;}.edumall-dark-scheme .page-header.headroom--not-top .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7) !important;}.edumall-dark-scheme .page-header.headroom--not-top .menu--primary > li:hover > a, .edumall-dark-scheme .page-header.headroom--not-top .menu--primary > ul > li > a:hover, .edumall-dark-scheme .page-header.headroom--not-top .menu--primary > ul > li > a:focus, .edumall-dark-scheme .page-header.headroom--not-top .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .page-header.headroom--not-top .menu--primary > ul > .current-menu-item > a{color:#fff !important;}.edumall-dark-scheme #page-header.headroom--not-top .search-field{color:#80868D;border-color:#19222d;background:#19222d;}.edumall-dark-scheme #page-header.headroom--not-top .search-field:focus{color:#fff;border-color:#fff;background:rgba(255, 255, 255, 0);}.header-more-tools-opened .header-right-inner{background-image:url("https://www.osconcepts.com/wp-content/uploads/2023/09/parallax-8.jpg");background-color:#ffffff;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;border-width:1px;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 0 26px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 0 26px rgba(0, 0, 0, 0.05);box-shadow:0 0 26px rgba(0, 0, 0, 0.05);}.header-more-tools-opened .header-right-inner .header-social-networks a{color:#333!important;}.header-more-tools-opened .header-right-inner .header-social-networks a:hover{color:#0071dc!important;}.header-01 .page-header-inner{border-bottom-width:0px;}.header-01 .menu--primary > ul > li > a{font-size:14px;line-height:1.6;}.desktop-menu .header-01 .menu--primary > ul > li > a{padding-top:25px;padding-bottom:25px;padding-left:12px;padding-right:12px;}.header-01.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);}.header-01.header-dark .header-icon, .header-01.header-dark .wpml-ls-item-toggle{color:#031f42;}.header-01.header-dark .header-icon:hover{color:#0071dc;}.header-01.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-01.header-dark .header-icon .badge, .header-01.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-01.header-dark .menu--primary > ul > li > a{color:#333;}.header-01.header-dark .menu--primary > ul > li:hover > a, .header-01.header-dark .menu--primary > ul > li > a:hover, .header-01.header-dark .menu--primary > ul > li > a:focus, .header-01.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-01.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-01.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-01.header-dark .header-button:before{background:#0071dc;}.header-01.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-01.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-01.header-dark .header-social-networks a{color:#252525;}.header-01.header-dark .header-social-networks a:hover{color:#0071dc;}.header-01.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-01.header-light .header-icon, .header-01.header-light .wpml-ls-item-toggle{color:#fff;}.header-01.header-light .header-icon:hover{color:#fff;}.header-01.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-01.header-light .header-icon .badge, .header-01.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-01.header-light .menu--primary > ul > li > a{color:#fff;}.header-01.header-light .menu--primary > ul > li:hover > a, .header-01.header-light .menu--primary > ul > li > a:hover, .header-01.header-light .menu--primary > ul > li > a:focus, .header-01.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-01.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-01.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-01.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-01.header-light .header-button:hover{color:#111;border-color:#fff;}.header-01.header-light .header-button:after{background:#fff;}.header-01.header-light .header-social-networks a{color:#fff;}.header-01.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-01.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-01.header-dark .header-icon, .edumall-dark-scheme .header-01.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-01.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-01.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-01.header-dark .header-icon .badge, .edumall-dark-scheme .header-01.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-01.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-01.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-01.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-01.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-01.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-01.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-01.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-01.header-dark .header-social-networks a:hover{color:#ffc221;}.header-02 .page-header-inner{border-bottom-width:0px;}.header-02 .menu--primary > ul > li > a{font-size:14px;font-weight:500;line-height:1.6;}.desktop-menu .header-02 .menu--primary > ul > li > a{padding-top:25px;padding-bottom:25px;padding-left:17px;padding-right:17px;}.header-02.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);}.header-02.header-dark .header-icon, .header-02.header-dark .wpml-ls-item-toggle{color:#031f42;}.header-02.header-dark .header-icon:hover{color:#0071dc;}.header-02.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-02.header-dark .header-icon .badge, .header-02.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-02.header-dark .menu--primary > ul > li > a{color:#333;}.header-02.header-dark .menu--primary > ul > li:hover > a, .header-02.header-dark .menu--primary > ul > li > a:hover, .header-02.header-dark .menu--primary > ul > li > a:focus, .header-02.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-02.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-02.header-dark .search-field{color:#9B9B9B;border-color:#F2F2F2;background:#F2F2F2;}.header-02.header-dark .search-field:focus{color:#333;border-color:#0071dc;background:#fff;}.header-02.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-02.header-dark .header-button:before{background:#0071dc;}.header-02.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-02.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-02.header-dark .header-social-networks a{color:#252525;}.header-02.header-dark .header-social-networks a:hover{color:#0071dc;}.header-02.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-02.header-light .header-icon, .header-02.header-light .wpml-ls-item-toggle{color:#fff;}.header-02.header-light .header-icon:hover{color:#fff;}.header-02.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-02.header-light .header-icon .badge, .header-02.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-02.header-light .menu--primary > ul > li > a{color:#fff;}.header-02.header-light .menu--primary > ul > li:hover > a, .header-02.header-light .menu--primary > ul > li > a:hover, .header-02.header-light .menu--primary > ul > li > a:focus, .header-02.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-02.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-02.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-02.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-02.header-light .header-button:hover{color:#111;border-color:#fff;}.header-02.header-light .header-button:after{background:#fff;}.header-02.header-light .header-social-networks a{color:#fff;}.header-02.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-02.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-02.header-dark .header-icon, .edumall-dark-scheme .header-02.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-02.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-02.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-02.header-dark .header-icon .badge, .edumall-dark-scheme .header-02.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-02.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-02.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-02.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-02.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-02.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-02.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-02.header-dark .search-field{color:#80868d;border-color:#19222d;background:#19222d;}.edumall-dark-scheme .header-02.header-dark .search-field:focus{color:#fff;border-color:#fff;background:#19222d;}.edumall-dark-scheme .header-02.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-02.header-dark .header-social-networks a:hover{color:#ffc221;}.header-03 .page-header-inner{border-bottom-width:0px;}.header-03 .menu--primary > ul > li > a{font-size:14px;font-weight:500;line-height:1.6;}.desktop-menu .header-03 .menu--primary > ul > li > a{padding-top:25px;padding-bottom:25px;padding-left:17px;padding-right:17px;}.header-03.header-dark .page-header-inner{background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.header-03.header-dark .header-icon, .header-03.header-dark .wpml-ls-item-toggle{color:#031f42;}.header-03.header-dark .header-icon:hover{color:#0071dc;}.header-03.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-03.header-dark .header-icon .badge, .header-03.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-03.header-dark .menu--primary > ul > li > a{color:#333;}.header-03.header-dark .menu--primary > ul > li:hover > a, .header-03.header-dark .menu--primary > ul > li > a:hover, .header-03.header-dark .menu--primary > ul > li > a:focus, .header-03.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-03.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-03.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-03.header-dark .header-button:before{background:#0071dc;}.header-03.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-03.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-03.header-dark .header-social-networks a{color:#252525;}.header-03.header-dark .header-social-networks a:hover{color:#0071dc;}.header-03.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-03.header-light .header-icon, .header-03.header-light .wpml-ls-item-toggle{color:#fff;}.header-03.header-light .header-icon:hover{color:#fff;}.header-03.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-03.header-light .header-icon .badge, .header-03.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-03.header-light .menu--primary > ul > li > a{color:#fff;}.header-03.header-light .menu--primary > ul > li:hover > a, .header-03.header-light .menu--primary > ul > li > a:hover, .header-03.header-light .menu--primary > ul > li > a:focus, .header-03.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-03.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-03.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-03.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-03.header-light .header-button:hover{color:#111;border-color:#fff;}.header-03.header-light .header-button:after{background:#fff;}.header-03.header-light .header-social-networks a{color:#fff;}.header-03.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-03.header-dark .page-header-inner{background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-03.header-dark .header-icon, .edumall-dark-scheme .header-03.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-03.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-03.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-03.header-dark .header-icon .badge, .edumall-dark-scheme .header-03.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-03.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-03.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-03.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-03.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-03.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-03.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-03.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-03.header-dark .header-social-networks a:hover{color:#ffc221;}.header-04 .page-header-inner{border-bottom-width:0px;}.header-04 .menu--primary > ul > li > a{font-size:14px;font-weight:500;line-height:1.6;}.desktop-menu .header-04 .menu--primary > ul > li > a{padding-top:25px;padding-bottom:25px;padding-left:12px;padding-right:12px;}.header-04.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);}.header-04.header-dark .header-icon, .header-04.header-dark .wpml-ls-item-toggle{color:#031f42;}.header-04.header-dark .header-icon:hover{color:#0071dc;}.header-04.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-04.header-dark .header-icon .badge, .header-04.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-04.header-dark .menu--primary > ul > li > a{color:#333;}.header-04.header-dark .menu--primary > ul > li:hover > a, .header-04.header-dark .menu--primary > ul > li > a:hover, .header-04.header-dark .menu--primary > ul > li > a:focus, .header-04.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-04.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-04.header-dark .search-field{color:#9B9B9B;border-color:#F2F2F2;background:#F2F2F2;}.header-04.header-dark .search-field:focus{color:#333;border-color:#0071dc;background:#fff;}.header-04.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-04.header-dark .header-button:before{background:#0071dc;}.header-04.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-04.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-04.header-dark .header-social-networks a{color:#252525;}.header-04.header-dark .header-social-networks a:hover{color:#0071dc;}.header-04.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-04.header-light .header-icon, .header-04.header-light .wpml-ls-item-toggle{color:#fff;}.header-04.header-light .header-icon:hover{color:#fff;}.header-04.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-04.header-light .header-icon .badge, .header-04.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-04.header-light .menu--primary > ul > li > a{color:#fff;}.header-04.header-light .menu--primary > ul > li:hover > a, .header-04.header-light .menu--primary > ul > li > a:hover, .header-04.header-light .menu--primary > ul > li > a:focus, .header-04.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-04.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-04.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-04.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-04.header-light .header-button:hover{color:#111;border-color:#fff;}.header-04.header-light .header-button:after{background:#fff;}.header-04.header-light .header-social-networks a{color:#fff;}.header-04.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-04.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-04.header-dark .header-icon, .edumall-dark-scheme .header-04.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-04.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-04.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-04.header-dark .header-icon .badge, .edumall-dark-scheme .header-04.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-04.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-04.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-04.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-04.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-04.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-04.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-04.header-dark .search-field{color:#80868d;border-color:#19222d;background:#19222d;}.edumall-dark-scheme .header-04.header-dark .search-field:focus{color:#fff;border-color:#fff;background:#19222d;}.edumall-dark-scheme .header-04.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-04.header-dark .header-social-networks a:hover{color:#ffc221;}.header-05 .page-header-inner{border-bottom-width:0px;}.header-05 .menu--primary > ul > li > a{font-size:14px;font-weight:500;line-height:1.6;}.desktop-menu .header-05 .menu--primary > ul > li > a{padding-top:25px;padding-bottom:25px;padding-left:17px;padding-right:17px;}.header-05.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);}.header-05.header-dark .header-icon, .header-05.header-dark .wpml-ls-item-toggle{color:#031f42;}.header-05.header-dark .header-icon:hover{color:#0071dc;}.header-05.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-05.header-dark .header-icon .badge, .header-05.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-05.header-dark .menu--primary > ul > li > a{color:#333;}.header-05.header-dark .menu--primary > ul > li:hover > a, .header-05.header-dark .menu--primary > ul > li > a:hover, .header-05.header-dark .menu--primary > ul > li > a:focus, .header-05.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-05.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-05.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-05.header-dark .header-button:before{background:#0071dc;}.header-05.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-05.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-05.header-dark .header-social-networks a{color:#252525;}.header-05.header-dark .header-social-networks a:hover{color:#0071dc;}.header-05.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-05.header-light .header-icon, .header-05.header-light .wpml-ls-item-toggle{color:#fff;}.header-05.header-light .header-icon:hover{color:#fff;}.header-05.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-05.header-light .header-icon .badge, .header-05.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-05.header-light .menu--primary > ul > li > a{color:#fff;}.header-05.header-light .menu--primary > ul > li:hover > a, .header-05.header-light .menu--primary > ul > li > a:hover, .header-05.header-light .menu--primary > ul > li > a:focus, .header-05.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-05.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-05.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-05.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-05.header-light .header-button:hover{color:#111;border-color:#fff;}.header-05.header-light .header-button:after{background:#fff;}.header-05.header-light .header-social-networks a{color:#fff;}.header-05.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-05.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-05.header-dark .header-icon, .edumall-dark-scheme .header-05.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-05.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-05.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-05.header-dark .header-icon .badge, .edumall-dark-scheme .header-05.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-05.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-05.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-05.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-05.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-05.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-05.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-05.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-05.header-dark .header-social-networks a:hover{color:#ffc221;}.header-06 .page-header-inner{border-bottom-width:0px;}.header-06 .menu--primary > ul > li > a{font-size:14px;font-weight:500;line-height:1.6;}.desktop-menu .header-06 .menu--primary > ul > li > a{padding-top:15px;padding-bottom:15px;padding-left:12px;padding-right:12px;}.header-06.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);box-shadow:0 10px 26px rgba(0, 0, 0, 0.05);}.header-06.header-dark .header-icon, .header-06.header-dark .wpml-ls-item-toggle{color:#696969;}.header-06.header-dark .header-icon:hover{color:#0071dc;}.header-06.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-06.header-dark .header-icon .badge, .header-06.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-06.header-dark .page-header-navigation{background:#0071dc;background-color:#0071dc;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.header-06.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.8);}.header-06.header-dark .menu--primary > ul > li:hover > a, .header-06.header-dark .menu--primary > ul > li > a:hover, .header-06.header-dark .menu--primary > ul > li > a:focus, .header-06.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-06.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.page-header.header-06.headroom--not-top .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.8)!important;}.page-header.header-06.headroom--not-top .menu--primary > li:hover > a, .page-header.header-06.headroom--not-top .menu--primary > ul > li > a:hover, .page-header.header-06.headroom--not-top .menu--primary > ul > li > a:focus, .page-header.header-06.headroom--not-top .menu--primary > ul > .current-menu-ancestor > a, .page-header.header-06.headroom--not-top .menu--primary > ul > .current-menu-item > a{color:#fff!important;}.header-06.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-06.header-dark .header-button:before{background:#0071dc;}.header-06.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-06.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-06.header-dark .header-social-networks a{color:#696969;}.header-06.header-dark .header-social-networks a:hover{color:#0071dc;}.header-06.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-06.header-light .header-icon, .header-06.header-light .wpml-ls-item-toggle{color:#fff;}.header-06.header-light .header-icon:hover{color:#fff;}.header-06.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-06.header-light .header-icon .badge, .header-06.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-06.header-light .page-header-navigation{background:rgba(0, 113, 220, 0.8);background-color:rgba(0, 113, 220, 0.8);background-repeat:no-repeat;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.header-06.header-light .menu--primary > ul > li > a{color:#fff;}.header-06.header-light .menu--primary > ul > li:hover > a, .header-06.header-light .menu--primary > ul > li > a:hover, .header-06.header-light .menu--primary > ul > li > a:focus, .header-06.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-06.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-06.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-06.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-06.header-light .header-button:hover{color:#111;border-color:#fff;}.header-06.header-light .header-button:after{background:#fff;}.header-06.header-light .header-social-networks a{color:#fff;}.header-06.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-06.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-06.header-dark .header-icon, .edumall-dark-scheme .header-06.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-06.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-06.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-06.header-dark .header-icon .badge, .edumall-dark-scheme .header-06.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-06.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-06.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-06.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-06.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-06.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-06.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-06.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-06.header-dark .header-social-networks a:hover{color:#ffc221;}.header-07 .page-header-inner{border-bottom-width:0px;}.header-07 .menu--primary > ul > li > a{font-size:14px;font-weight:500;line-height:1.6;}.desktop-menu .header-07 .menu--primary > ul > li > a{padding-top:25px;padding-bottom:25px;padding-left:17px;padding-right:17px;}.header-07.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 10px 26px rgba(0, 0, 0, 0.07);-moz-box-shadow:0 10px 26px rgba(0, 0, 0, 0.07);box-shadow:0 10px 26px rgba(0, 0, 0, 0.07);}.header-07.header-dark .header-icon, .header-07.header-dark .wpml-ls-item-toggle{color:#031f42;}.header-07.header-dark .header-icon:hover{color:#0071dc;}.header-07.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-07.header-dark .header-icon .badge, .header-07.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-07.header-dark .menu--primary > ul > li > a{color:#333;}.header-07.header-dark .menu--primary > ul > li:hover > a, .header-07.header-dark .menu--primary > ul > li > a:hover, .header-07.header-dark .menu--primary > ul > li > a:focus, .header-07.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-07.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-07.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-07.header-dark .header-button:before{background:#0071dc;}.header-07.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-07.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-07.header-dark .header-social-networks a{color:#252525;}.header-07.header-dark .header-social-networks a:hover{color:#0071dc;}.header-07.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-07.header-light .header-icon, .header-07.header-light .wpml-ls-item-toggle{color:#fff;}.header-07.header-light .header-icon:hover{color:#fff;}.header-07.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-07.header-light .header-icon .badge, .header-07.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-07.header-light .menu--primary > ul > li > a{color:#fff;}.header-07.header-light .menu--primary > ul > li:hover > a, .header-07.header-light .menu--primary > ul > li > a:hover, .header-07.header-light .menu--primary > ul > li > a:focus, .header-07.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-07.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-07.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-07.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-07.header-light .header-button:hover{color:#111;border-color:#fff;}.header-07.header-light .header-button:after{background:#fff;}.header-07.header-light .header-social-networks a{color:#fff;}.header-07.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-07.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-07.header-dark .header-icon, .edumall-dark-scheme .header-07.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-07.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-07.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-07.header-dark .header-icon .badge, .edumall-dark-scheme .header-07.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-07.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-07.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-07.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-07.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-07.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-07.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-07.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-07.header-dark .header-social-networks a:hover{color:#ffc221;}.header-08 .page-header-inner{border-bottom-width:0px;}.header-08 .menu--primary > ul > li > a{font-size:14px;font-weight:500;line-height:1.6;}.desktop-menu .header-08 .menu--primary > ul > li > a{padding-top:25px;padding-bottom:25px;padding-left:17px;padding-right:17px;}.header-08.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;-webkit-box-shadow:0 0 26px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 0 26px rgba(0, 0, 0, 0.05);box-shadow:0 0 26px rgba(0, 0, 0, 0.05);}.header-08.header-dark .header-icon, .header-08.header-dark .wpml-ls-item-toggle{color:#031f42;}.header-08.header-dark .header-icon:hover{color:#0071dc;}.header-08.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-08.header-dark .header-icon .badge, .header-08.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-08.header-dark .menu--primary > ul > li > a{color:#333;}.header-08.header-dark .menu--primary > ul > li:hover > a, .header-08.header-dark .menu--primary > ul > li > a:hover, .header-08.header-dark .menu--primary > ul > li > a:focus, .header-08.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-08.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-08.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-08.header-dark .header-button:before{background:#0071dc;}.header-08.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-08.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-08.header-dark .header-social-networks a{color:#252525;}.header-08.header-dark .header-social-networks a:hover{color:#0071dc;}.header-08.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-08.header-light .header-icon, .header-08.header-light .wpml-ls-item-toggle{color:#fff;}.header-08.header-light .header-icon:hover{color:#fff;}.header-08.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-08.header-light .header-icon .badge, .header-08.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-08.header-light .menu--primary > ul > li > a{color:#fff;}.header-08.header-light .menu--primary > ul > li:hover > a, .header-08.header-light .menu--primary > ul > li > a:hover, .header-08.header-light .menu--primary > ul > li > a:focus, .header-08.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-08.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-08.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-08.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-08.header-light .header-button:hover{color:#111;border-color:#fff;}.header-08.header-light .header-button:after{background:#fff;}.header-08.header-light .header-social-networks a{color:#fff;}.header-08.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-08.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-08.header-dark .header-icon, .edumall-dark-scheme .header-08.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-08.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-08.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-08.header-dark .header-icon .badge, .edumall-dark-scheme .header-08.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-08.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-08.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-08.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-08.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-08.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-08.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-08.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-08.header-dark .header-social-networks a:hover{color:#ffc221;}.header-09 .page-header-inner{border-bottom-width:0px;}.header-09 .menu--primary > ul > li > a{font-size:16px;font-weight:500;line-height:1.625;text-transform:capitalize;}.desktop-menu .header-09 .menu--primary > ul > li > a{padding-top:28px;padding-bottom:28px;padding-left:21px;padding-right:21px;}.header-09.header-dark .page-header-inner{background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.header-09.header-dark .header-icon, .header-09.header-dark .wpml-ls-item-toggle{color:#000;}.header-09.header-dark .header-icon:hover{color:#0071dc;}.header-09.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-09.header-dark .header-icon .badge, .header-09.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-09.header-dark .menu--primary > ul > li > a{color:#000;}.header-09.header-dark .menu--primary > ul > li:hover > a, .header-09.header-dark .menu--primary > ul > li > a:hover, .header-09.header-dark .menu--primary > ul > li > a:focus, .header-09.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-09.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-09.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-09.header-dark .header-button:before{background:#0071dc;}.header-09.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-09.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-09.header-dark .header-social-networks a{color:#252525;}.header-09.header-dark .header-social-networks a:hover{color:#0071dc;}.header-09.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-09.header-light .header-icon, .header-09.header-light .wpml-ls-item-toggle{color:#fff;}.header-09.header-light .header-icon:hover{color:#fff;}.header-09.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-09.header-light .header-icon .badge, .header-09.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-09.header-light .menu--primary > ul > li > a{color:#fff;}.header-09.header-light .menu--primary > ul > li:hover > a, .header-09.header-light .menu--primary > ul > li > a:hover, .header-09.header-light .menu--primary > ul > li > a:focus, .header-09.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-09.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-09.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-09.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-09.header-light .header-button:hover{color:#111;border-color:#fff;}.header-09.header-light .header-button:after{background:#fff;}.header-09.header-light .header-social-networks a{color:#fff;}.header-09.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-09.header-dark .page-header-inner{background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-09.header-dark .header-icon, .edumall-dark-scheme .header-09.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-09.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-09.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-09.header-dark .header-icon .badge, .edumall-dark-scheme .header-09.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.edumall-dark-scheme .header-09.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-09.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-09.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-09.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-09.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-09.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-09.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-09.header-dark .header-social-networks a:hover{color:#ffc221;}.header-10 .page-header-inner{border-bottom-width:0px;}.header-10 .menu--primary > ul > li > a{font-size:16px;font-weight:500;line-height:1.625;text-transform:capitalize;}.desktop-menu .header-10 .menu--primary > ul > li > a{padding-top:28px;padding-bottom:25px;padding-left:21px;padding-right:21px;}.header-10.header-dark .page-header-inner{background:#fff;background-color:#fff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#eee;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.header-10.header-dark .header-icon, .header-10.header-dark .wpml-ls-item-toggle{color:#000;}.header-10.header-dark .header-icon:hover{color:#0071dc;}.header-10.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#0071dc;}.header-10.header-dark .header-icon .badge, .header-10.header-dark .mini-cart .mini-cart-icon:after{color:#fff;background-color:#0071dc;}.header-10.header-dark .menu--primary > ul > li > a{color:#333;}.header-10.header-dark .menu--primary > ul > li:hover > a, .header-10.header-dark .menu--primary > ul > li > a:hover, .header-10.header-dark .menu--primary > ul > li > a:focus, .header-10.header-dark .menu--primary > ul > .current-menu-ancestor > a, .header-10.header-dark .menu--primary > ul > .current-menu-item > a{color:#0071dc;}.header-10.header-dark .header-button{color:#fff;border-color:#0071dc;}.header-10.header-dark .header-button:before{background:#0071dc;}.header-10.header-dark .header-button:hover{color:#0071dc;border-color:#0071dc;}.header-10.header-dark .header-button:after{background:rgba(0, 0, 0, 0);}.header-10.header-dark .header-social-networks a{color:#252525;}.header-10.header-dark .header-social-networks a:hover{color:#0071dc;}.header-10.header-light .page-header-inner{border-color:rgba(255, 255, 255, 0.2);}.header-10.header-light .header-icon, .header-10.header-light .wpml-ls-item-toggle{color:#fff;}.header-10.header-light .header-icon:hover{color:#fff;}.header-10.header-light .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#fff;}.header-10.header-light .header-icon .badge, .header-10.header-light .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#ffc221;}.header-10.header-light .menu--primary > ul > li > a{color:#fff;}.header-10.header-light .menu--primary > ul > li:hover > a, .header-10.header-light .menu--primary > ul > li > a:hover, .header-10.header-light .menu--primary > ul > li > a:focus, .header-10.header-light .menu--primary > ul > .current-menu-ancestor > a, .header-10.header-light .menu--primary > ul > .current-menu-item > a{color:#fff;}.header-10.header-light .header-button{color:#fff;border-color:rgba(255, 255, 255, 0.3);}.header-10.header-light .header-button:before{background:rgba(255, 255, 255, 0);}.header-10.header-light .header-button:hover{color:#111;border-color:#fff;}.header-10.header-light .header-button:after{background:#fff;}.header-10.header-light .header-social-networks a{color:#fff;}.header-10.header-light .header-social-networks a:hover{color:#fff;}.edumall-dark-scheme .header-10.header-dark .page-header-inner{background:#020c18;background-color:#020c18;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;border-color:#020c18;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .header-10.header-dark .header-icon, .edumall-dark-scheme .header-10.header-dark .wpml-ls-item-toggle{color:#fff;}.edumall-dark-scheme .header-10.header-dark .header-icon:hover{color:#ffc221;}.edumall-dark-scheme .header-10.header-dark .wpml-ls-slot-shortcode_actions:hover > .js-wpml-ls-item-toggle{color:#ffc221;}.edumall-dark-scheme .header-10.header-dark .header-icon .badge, .edumall-dark-scheme .header-10.header-dark .mini-cart .mini-cart-icon:after{color:#031f42;background-color:#0071dc;}.edumall-dark-scheme .header-10.header-dark .menu--primary > ul > li > a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .header-10.header-dark .menu--primary > ul > li:hover > a, .edumall-dark-scheme .header-10.header-dark .menu--primary > ul > li > a:hover, .edumall-dark-scheme .header-10.header-dark .menu--primary > ul > li > a:focus, .edumall-dark-scheme .header-10.header-dark .menu--primary > ul > .current-menu-ancestor > a, .edumall-dark-scheme .header-10.header-dark .menu--primary > ul > .current-menu-item > a{color:#fff;}.edumall-dark-scheme .header-10.header-dark .header-social-networks a{color:#fff;}.edumall-dark-scheme .header-10.header-dark .header-social-networks a:hover{color:#ffc221;}.page-navigation .children > li > a, .page-navigation .children > li > a .menu-item-title{font-weight:500;letter-spacing:0em;line-height:1.39;text-transform:none;}.page-navigation .children > li > a{font-size:13px;color:#7e7e7e;}.page-navigation .children,.primary-menu-sub-visual{background-color:#fff;-webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.12);-moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.12);box-shadow:0 0 30px rgba(0, 0, 0, 0.12);}.page-navigation .children > li:hover > a, .page-navigation .children > li.current-menu-item > a, .page-navigation .children > li.current-menu-ancestor > a{color:#0071dc;}.edumall-dark-scheme .page-navigation .children,.edumall-dark-scheme .primary-menu-sub-visual{background-color:#19222D;-webkit-box-shadow:0 0 30px rgba(0, 0, 0, 0.12);-moz-box-shadow:0 0 30px rgba(0, 0, 0, 0.12);box-shadow:0 0 30px rgba(0, 0, 0, 0.12);}.edumall-dark-scheme .page-navigation .children > li > a{color:#fff;}.edumall-dark-scheme .page-navigation .children > li:hover > a, .edumall-dark-scheme .page-navigation .children > li.current-menu-item > a, .edumall-dark-scheme .page-navigation .children > li.current-menu-ancestor > a{color:#ffc221;}.popup-canvas-menu{background:#f9f9fb;background-color:#f9f9fb;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-close-main-menu:before, .page-close-main-menu:after{background-color:#111;}.popup-canvas-menu .menu__container > li > a{font-weight:500;line-height:1.5;color:#111;}.popup-canvas-menu .menu__container > li > a:hover, .popup-canvas-menu .menu__container > li > a:focus{color:#0071dc;}.popup-canvas-menu .menu__container .children a{color:#777;}.popup-canvas-menu .menu__container .children a:hover{color:#0071dc;}.page-mobile-menu-header{background:#fff;}.page-close-mobile-menu{color:#111;}.page-close-mobile-menu:hover{color:#111;}.page-mobile-main-menu .menu__container > li > a{padding-top:19px;padding-bottom:19px;padding-left:0;padding-right:0;font-weight:500;line-height:1.5;font-size:14px;color:#fff;}.page-mobile-main-menu .menu__container > li > a:hover, .page-mobile-main-menu .menu__container > li.opened > a{color:#fff;}.page-mobile-main-menu .menu__container > li + li > a, .page-mobile-main-menu .menu__container > li.opened > a{border-color:rgba(255, 255, 255, 0.15);}.page-mobile-main-menu .children > li > a,.page-mobile-main-menu .simple-menu > li > a{padding-top:10px;padding-bottom:10px;padding-left:0;padding-right:0;}.page-mobile-main-menu .simple-menu > li > a, .page-mobile-main-menu .children > li > a{font-weight:500;line-height:1.5;}.page-mobile-main-menu .children > li > a{font-size:13px;}.page-mobile-main-menu .children > li > a, .page-mobile-main-menu .edumall-list .link{color:rgba(255, 255, 255, 0.7);}.page-mobile-main-menu .children a:hover, .page-mobile-main-menu .children .opened > a, .page-mobile-main-menu .current-menu-item > a{color:#fff;}.page-mobile-main-menu .toggle-sub-menu{color:#fff;background:rgba(255, 255, 255, 0);}.page-mobile-main-menu .toggle-sub-menu:hover{color:#fff;background:rgba(255, 255, 255, 0.2);}.page-title-bar-01 .page-title-bar-bg{background:#F8F8F8;background-color:#F8F8F8;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-title-bar-01 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:15px;padding-bottom:72px;}.page-title-bar-01{margin-bottom:60px;}.page-title-bar-01 .heading{font-size:40px;font-weight:500;line-height:1.4;color:#252525;}.page-title-bar-01 .insight_core_breadcrumb li, .page-title-bar-01 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-01 .insight_core_breadcrumb li{color:#333;}.page-title-bar-01 .insight_core_breadcrumb a{color:#ababab;}.page-title-bar-01 .insight_core_breadcrumb a:hover{color:#252525;}.page-title-bar-01 .insight_core_breadcrumb li + li:before{color:#ababab;}.edumall-dark-scheme .page-title-bar-01 .page-title-bar-bg{background-image:url("https://www.osconcepts.com/new/wp-content/themes/edumall/assets/images/dark-scheme/title-bar-01-bg.jpg");background-color:#021630;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .page-title-bar-01 .page-title-bar-inner .heading{color:#fff;}.edumall-dark-scheme .page-title-bar-01 .insight_core_breadcrumb li{color:#fff;}.edumall-dark-scheme .page-title-bar-01 .insight_core_breadcrumb a{color:#80868D;}.edumall-dark-scheme .page-title-bar-01 .insight_core_breadcrumb a:hover{color:#fff;}.edumall-dark-scheme .page-title-bar-01 .insight_core_breadcrumb li + li:before{color:#80868D;}.page-title-bar-02 .page-title-bar-bg{background:#F4F9FF;background-color:#F4F9FF;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-title-bar-02 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:15px;padding-bottom:36px;}.page-title-bar-02{margin-bottom:40px;}.page-title-bar-02 .heading{font-size:40px;font-weight:500;line-height:1.4;color:#0071dc;}.page-title-bar-02 .insight_core_breadcrumb li, .page-title-bar-02 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-02 .insight_core_breadcrumb li{color:#333;}.page-title-bar-02 .insight_core_breadcrumb a{color:#ababab;}.page-title-bar-02 .insight_core_breadcrumb a:hover{color:#252525;}.page-title-bar-02 .insight_core_breadcrumb li + li:before{color:#ababab;}.edumall-dark-scheme .page-title-bar-02 .page-title-bar-bg{background:#031F42;background-color:#031F42;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .page-title-bar-02 .page-title-bar-inner .heading{color:#fff;}.edumall-dark-scheme .page-title-bar-02 .insight_core_breadcrumb li{color:#fff;}.edumall-dark-scheme .page-title-bar-02 .insight_core_breadcrumb a{color:#80868D;}.edumall-dark-scheme .page-title-bar-02 .insight_core_breadcrumb a:hover{color:#fff;}.edumall-dark-scheme .page-title-bar-02 .insight_core_breadcrumb li + li:before{color:#80868D;}.page-title-bar-03 .page-title-bar-bg{background:#F5F7FD;background-color:#F5F7FD;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-title-bar-03 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:16px;padding-bottom:16px;}.page-title-bar-03{margin-bottom:74px;}.page-title-bar-03 .insight_core_breadcrumb li, .page-title-bar-03 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-03 .insight_core_breadcrumb li{color:#252525;}.page-title-bar-03 .insight_core_breadcrumb a{color:#696969;}.page-title-bar-03 .insight_core_breadcrumb a:hover{color:#252525;}.page-title-bar-03 .insight_core_breadcrumb li + li:before{color:#696969;}.edumall-dark-scheme .page-title-bar-03 .page-title-bar-bg{background:#031F42;background-color:#031F42;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .page-title-bar-03 .insight_core_breadcrumb li{color:#fff;}.edumall-dark-scheme .page-title-bar-03 .insight_core_breadcrumb a{color:#80868D;}.edumall-dark-scheme .page-title-bar-03 .insight_core_breadcrumb a:hover{color:#fff;}.edumall-dark-scheme .page-title-bar-03 .insight_core_breadcrumb li + li:before{color:#80868D;}.page-title-bar-04 .page-title-bar-bg{background:#031f42;background-color:#031f42;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-title-bar-04 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:16px;padding-bottom:16px;}.page-title-bar-04{margin-bottom:74px;}.page-title-bar-04 .insight_core_breadcrumb li, .page-title-bar-04 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-04 .insight_core_breadcrumb li{color:#fff;}.page-title-bar-04 .insight_core_breadcrumb a{color:#ababab;}.page-title-bar-04 .insight_core_breadcrumb a:hover{color:#fff;}.page-title-bar-04 .insight_core_breadcrumb li + li:before{color:#696969;}.edumall-dark-scheme .page-title-bar-04 .page-title-bar-bg{background:#0231B8;background-color:#0231B8;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .page-title-bar-04 .insight_core_breadcrumb li{color:#fff;}.edumall-dark-scheme .page-title-bar-04 .insight_core_breadcrumb a{color:rgba(255, 255, 255, 0.7);}.edumall-dark-scheme .page-title-bar-04 .insight_core_breadcrumb a:hover{color:#fff;}.edumall-dark-scheme .page-title-bar-04 .insight_core_breadcrumb li + li:before{color:rgba(255, 255, 255, 0.7);}.page-title-bar-05 .page-title-bar-bg{background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-title-bar-05 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:16px;padding-bottom:16px;}.page-title-bar-05{margin-bottom:52px;}.page-title-bar-05 .insight_core_breadcrumb li, .page-title-bar-05 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-05 .insight_core_breadcrumb li{color:#252525;}.page-title-bar-05 .insight_core_breadcrumb a{color:#696969;}.page-title-bar-05 .insight_core_breadcrumb a:hover{color:#252525;}.page-title-bar-05 .insight_core_breadcrumb li + li:before{color:#696969;}.edumall-dark-scheme .page-title-bar-05 .page-title-bar-bg{background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .page-title-bar-05 .insight_core_breadcrumb li{color:#fff;}.edumall-dark-scheme .page-title-bar-05 .insight_core_breadcrumb a{color:#80868D;}.edumall-dark-scheme .page-title-bar-05 .insight_core_breadcrumb a:hover{color:#fff;}.edumall-dark-scheme .page-title-bar-05 .insight_core_breadcrumb li + li:before{color:#80868D;}.page-title-bar-06 .page-title-bar-bg{background-image:url("https://www.osconcepts.com/new/wp-content/themes/edumall/assets/images/title-bar-06-bg.jpg");background-color:#f2f2f2;background-repeat:no-repeat;background-position:center right;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-title-bar-06 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:80px;padding-bottom:80px;}.page-title-bar-06{margin-bottom:57px;}.page-title-bar-06 .heading{font-size:40px;font-weight:500;line-height:1.4;}.page-title-bar-06 .insight_core_breadcrumb li, .page-title-bar-06 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-06 .insight_core_breadcrumb li{color:#252525;}.page-title-bar-06 .insight_core_breadcrumb a{color:#696969;}.page-title-bar-06 .insight_core_breadcrumb a:hover{color:#252525;}.page-title-bar-06 .insight_core_breadcrumb li + li:before{color:#696969;}.edumall-dark-scheme .page-title-bar-06 .page-title-bar-bg{background-image:url("https://www.osconcepts.com/new/wp-content/themes/edumall/assets/images/dark-scheme/title-bar-06-bg.jpg");background-color:#021630;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.edumall-dark-scheme .page-title-bar-06 .page-title-bar-inner .heading{color:#fff;}.edumall-dark-scheme .page-title-bar-06 .insight_core_breadcrumb li{color:#fff;}.edumall-dark-scheme .page-title-bar-06 .insight_core_breadcrumb a{color:#80868D;}.edumall-dark-scheme .page-title-bar-06 .insight_core_breadcrumb a:hover{color:#fff;}.edumall-dark-scheme .page-title-bar-06 .insight_core_breadcrumb li + li:before{color:#80868D;}.page-title-bar-07 .page-title-bar-bg{background-repeat:no-repeat;background-position:center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.page-title-bar-07 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:16px;padding-bottom:16px;}.page-title-bar-07 .insight_core_breadcrumb li, .page-title-bar-07 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-07 .insight_core_breadcrumb li{color:#fff;}.page-title-bar-07 .insight_core_breadcrumb a{color:rgba(255, 255, 255, 0.65);}.page-title-bar-07 .insight_core_breadcrumb a:hover{color:#fff;}.page-title-bar-07 .insight_core_breadcrumb li + li:before{color:#fff;}.page-title-bar-08 .page-title-bar-bg{background-image:url("https://www.osconcepts.com/new/wp-content/themes/edumall/assets/images/title-bar-08-bg.png");background-color:#F8F8F8;background-repeat:no-repeat;background-position:bottom right;background-attachment:scroll;-webkit-background-size:auto;-moz-background-size:auto;-ms-background-size:auto;-o-background-size:auto;background-size:auto;}.page-title-bar-08 .page-title-bar-inner{border-bottom-width:0px;border-bottom-color:rgba(0, 0, 0, 0);padding-top:80px;padding-bottom:80px;}.page-title-bar-08{margin-bottom:57px;}.page-title-bar-08 .heading{font-size:40px;font-weight:500;line-height:1.4;}.page-title-bar-08 .insight_core_breadcrumb li, .page-title-bar-08 .insight_core_breadcrumb li a{font-size:14px;font-weight:400;line-height:1.67;}.page-title-bar-08 .insight_core_breadcrumb li{color:#252525;}.page-title-bar-08 .insight_core_breadcrumb a{color:#696969;}.page-title-bar-08 .insight_core_breadcrumb a:hover{color:#252525;}.page-title-bar-08 .insight_core_breadcrumb li + li:before{color:#696969;}.edumall-dark-scheme .page-title-bar-08 .page-title-bar-bg{background-image:url("https://www.osconcepts.com/new/wp-content/themes/edumall/assets/images/title-bar-08-bg.png");background-color:#021630;background-repeat:no-repeat;background-position:bottom right;background-attachment:scroll;-webkit-background-size:auto;-moz-background-size:auto;-ms-background-size:auto;-o-background-size:auto;background-size:auto;}.edumall-dark-scheme .page-title-bar-08 .page-title-bar-inner .heading{color:#fff;}.edumall-dark-scheme .page-title-bar-08 .insight_core_breadcrumb li{color:#fff;}.edumall-dark-scheme .page-title-bar-08 .insight_core_breadcrumb a{color:#80868D;}.edumall-dark-scheme .page-title-bar-08 .insight_core_breadcrumb a:hover{color:#fff;}.edumall-dark-scheme .page-title-bar-08 .insight_core_breadcrumb li + li:before{color:#80868D;}.page-loading{background-color:#fff;}.page-loading .sk-wrap{color:#0071dc;}.error404{background-repeat:no-repeat;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}body{background:#ffffff;background-color:#ffffff;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}body.edumall-dark-scheme{background:#020D1B;background-color:#020D1B;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.branding-logo-wrap img, .error404--header .branding-logo-wrap img{width:148px;}.branding-logo-wrap img{padding-top:15px;padding-right:0px;padding-bottom:15px;padding-left:0px;}.header-sticky-both .headroom.headroom--not-top .branding img, .header-sticky-up .headroom.headroom--not-top.headroom--pinned .branding img, .header-sticky-down .headroom.headroom--not-top.headroom--unpinned .branding img{width:148px;}.headroom--not-top .branding-logo-wrap .sticky-logo{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;}.page-mobile-popup-logo img{width:148px;}.woocommerce .product .product-badges .new{color:#fff;background-color:#50D7E9;}.woocommerce .product .product-badges .hot{color:#fff;background-color:#E4573D;}.woocommerce .product .product-badges .onsale{color:#fff;background-color:#0071DC;}.page-search-popup{background:#fff;}.page-search-popup .search-form, .page-search-popup .search-field:focus{color:#111;}.page-search-popup .search-field:-webkit-autofill{-webkit-text-fill-color:#111!important;}body, .gmap-marker-wrap{font-family:Gordita;font-size:14px;font-weight:400;letter-spacing:0em;line-height:1.86;}h1,h2,h3,h4,h5,h6,th,fieldset legend,[class*="hint--"]:after, .heading, .heading-typography, .answer-options .answer-option .option-title .option-title-content, .elementor-accordion .elementor-tab-title a, .elementor-counter .elementor-counter-title, .entry-event-info .meta-label{font-weight:500;letter-spacing:0em;line-height:1.3;}h1{font-size:38px;}h2{font-size:34px;}h3{font-size:30px;}h4{font-size:26px;}h5{font-size:22px;}h6{font-size:18px;}b, strong{font-weight:700;}button, input[type="button"], input[type="reset"], input[type="submit"], .wp-block-button__link, .rev-btn, .tm-button, .button, .wc-forward, .elementor-button{font-family:inherit;font-size:15px;font-weight:700;letter-spacing:0em;text-transform:none;}input[type='text'], input[type='email'], input[type='url'], input[type='password'], input[type='search'], input[type='number'], input[type='tel'], select, textarea, .select2-container.select2-container--default .select2-selection--single, .select2-container.select2-container--default .select2-selection--single .select2-selection__rendered, .select2-container.select2-container--default .select2-search--dropdown .select2-search__field, .elementor-field-group .elementor-field-textual{font-size:14px;font-weight:500;letter-spacing:0em;}@media (max-width: 1199px){.page-title-bar-01 .page-title-bar-inner .heading{font-size:34px;}.page-title-bar-02 .page-title-bar-inner .heading{font-size:34px;}.page-title-bar-06 .page-title-bar-inner{padding-top:60px;padding-bottom:50px;}.page-title-bar-06 .page-title-bar-inner .heading{font-size:34px;}.page-title-bar-08 .page-title-bar-inner{padding-top:60px;padding-bottom:50px;}.page-title-bar-08 .page-title-bar-inner .heading{font-size:34px;}}@media (max-width: 991px){.page-title-bar-01 .page-title-bar-inner{padding-bottom:50px;}.page-title-bar-01 .page-title-bar-inner .heading{font-size:28px;}.page-title-bar-02 .page-title-bar-inner .heading{font-size:28px;}.page-title-bar-06 .page-title-bar-inner .heading{font-size:28px;}.page-title-bar-08 .page-title-bar-inner .heading{font-size:28px;}}@media (max-width: 767px){.page-title-bar-01 .page-title-bar-inner .heading{font-size:24px;}.page-title-bar-02 .page-title-bar-inner .heading{font-size:24px;}.page-title-bar-06 .page-title-bar-inner .heading{font-size:24px;}.page-title-bar-08 .page-title-bar-inner .heading{font-size:24px;}}</style></head>
+
+<body class="home page-template-default page page-id-619 wp-embed-responsive theme-edumall woocommerce-no-js desktop desktop-menu edumall-light-scheme mobile-menu-push-to-left woocommerce header-sticky-both wide page-has-no-sidebar title-bar-none elementor-default elementor-kit-4783 elementor-page elementor-page-619"  data-site-width="1200px" data-content-width="1200" data-font="Gordita Helvetica, Arial, sans-serif" data-header-sticky-height="80">
+
+
+
+<div id="page" class="site">
+	<div class="content-wrapper">
+		
+		<header id="page-header" class="page-header header-01 header-dark nav-links-hover-style-01 header-sticky-dark-logo">
+	<div class="page-header-place-holder"></div>
+	<div id="page-header-inner" class="page-header-inner" data-sticky="1">
+		<div class="page-top-bar top-bar-01">
+	<div class="container">
+		<div class="row row-eq-height">
+			<div class="col-md-6 top-bar-left">
+	<div class="top-bar-wrap">
+		<div class="top-bar-info">
+	<ul class="info-list">
+					<li class="info-item">
+								<a href="tel:+2348063546710" class="info-link">
+					
+											<i class="info-icon fas fa-phone"></i>
+					
+					<span class="info-text">+234 806 354 6710</span>
+									</a>
+						</li>
+					<li class="info-item">
+								<a href="mailto:info@osconcepts.com" class="info-link">
+					
+											<i class="info-icon far fa-envelope"></i>
+					
+					<span class="info-text">info@osconcepts.com</span>
+									</a>
+						</li>
+			</ul>
+</div>
+	</div>
+</div>
+<div class="col-md-6 top-bar-right">
+	<div class="top-bar-wrap">
+		<div class="top-bar-user-links">
+	<div class="link-wrap">
+								<a href="https://www.osconcepts.com/my-account-2/"
+			   title="Log in"
+			   class="top-bar-login-link"
+			>Log in</a>
+
+											<a href="https://www.osconcepts.com/my-account-2/"
+				   title="Register"
+				   class="top-bar-register-link"
+				>Register</a>
+						</div>
+</div>
+<div class="top-bar-social-network">
+	<div class="inner">
+						<a class=" social-link"
+					                   href="https://twitter.com"
+											target="_blank"
+					                   rel="nofollow"
+				>
+											<i class="social-icon fab fa-twitter"></i>
+														</a>
+								<a class=" social-link"
+					                   href="https://facebook.com"
+											target="_blank"
+					                   rel="nofollow"
+				>
+											<i class="social-icon fab fa-facebook-f"></i>
+														</a>
+								<a class=" social-link"
+					                   href="https://instagram.com"
+											target="_blank"
+					                   rel="nofollow"
+				>
+											<i class="social-icon fab fa-instagram"></i>
+														</a>
+								<a class=" social-link"
+					                   href="https://linkedin.com"
+											target="_blank"
+					                   rel="nofollow"
+				>
+											<i class="social-icon fab fa-linkedin-in"></i>
+														</a>
+					</div>
+</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+
+		<div class="container">
+			<div class="header-wrap">
+				
+				<div class="header-left">
+					<div class="header-content-inner">
+						<div class="branding">
+	<div class="branding-logo-wrap">
+				<a href="https://www.osconcepts.com/" rel="home">
+												<img src="https://www.osconcepts.com/wp-content/uploads/2021/01/os-concepts-logo.png" alt="OS Concepts"
+					     class="branding-logo dark-logo">
+									</a>
+			</div>
+</div>
+					</div>
+				</div>
+
+				
+				<div class="header-right">
+					<div class="header-content-inner">
+						<div id="header-right-inner" class="header-right-inner">
+							<div class="header-right-inner-content">
+								
+								<div id="page-open-popup-search" class="header-icon page-open-popup-search">
+	<i class="fa-regular fa-search"></i>
+</div>
+
+								<div id="page-navigation" class="navigation page-navigation">
+	<nav id="menu" class="menu menu--primary">
+		 <a href="https://www.osconcepts.com/blog/"><div class="menu-item-wrap"><span class="menu-item-title">Blog</span></div></a></li>
+
+								
+								
+								
+												<div id="mini-cart" class="mini-cart hide-on-empty style-normal">
+					<a href="https://www.osconcepts.com/cart-2/" class="mini-cart__button header-icon" title="View your shopping cart"><span class="mini-cart-icon" data-count="0"></span></a>					<div class="widget_shopping_cart_content"></div>
+				</div>
+			
+								<div class="header-user-buttons">
+	<div class="inner">
+		<div class="tm-button-wrapper" >		<a  class="tm-button style-bottom-line-alt button-thin tm-button-sm" href="https://www.osconcepts.com/my-account-2/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Log In</span>
+			
+					</div>
+		</a>		</div><div class="tm-button-wrapper" >		<a  class="tm-button style-flat tm-button-sm button-thin button-light-primary" href="https://www.osconcepts.com/my-account-2/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Sign Up</span>
+			
+					</div>
+		</a>		</div>	</div>
+</div>
+
+											
+															</div>
+						</div>
+
+						<div id="page-open-mobile-menu" class="header-icon page-open-mobile-menu">
+	<div class="burger-icon">
+		<span class="burger-icon-top"></span>
+		<span class="burger-icon-bottom"></span>
+	</div>
+</div>
+
+						<div id="page-open-components" class="header-icon page-open-components">
+	<div class="inner">
+		<div class="circle circle-one"></div>
+		<div class="circle circle-two"></div>
+		<div class="circle circle-three"></div>
+	</div>
+</div>
+					</div>
+				</div>
+
+							</div>
+		</div>
+	</div>
+</header>
+
+				<div id="page-content" class="page-content">
+	<div class="container">
+		<div class="row">
+
+			
+			<div id="page-main-content" class="page-main-content">
+
+						<div class="elementor-container elementor-column-gap-extended">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ff27902" data-id="ff27902" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-12db6b2 user-select-none elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="12db6b2" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="417" height="371" src="https://www.osconcepts.com/wp-content/uploads/2020/08/edumall-shape-grid-dots.png" class="attachment-full size-full wp-image-646" alt="" srcset="https://www.osconcepts.com/wp-content/uploads/2020/08/edumall-shape-grid-dots.png 417w, https://www.osconcepts.com/wp-content/uploads/2020/08/edumall-shape-grid-dots-400x356.png 400w" sizes="(max-width: 417px) 100vw, 417px" />													</div>
+
+				
+			
+					<div class="heading-primary-wrap">
+			<h2 class="heading-primary elementor-heading-title">OS <mark>Concepts</mark></h2>		</div>
+
+
+                <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-300 current_page_item current_page_parent menu-item-5849 level-1"><a href="https://www.osconcepts.com/blog/"><div class="menu-item-wrap"><span class="menu-item-title">Blog</span></div></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4857 level-1"><a href="https://www.osconcepts.com/contact-us/"><div class="menu-item-wrap"><span class="menu-item-title">Contact us</span></div></a></li>
+</ul>	</nav>
+</div>
+
+								
+								
+								
+												<div id="mini-cart" class="mini-cart hide-on-empty style-normal">
+					<a href="https://www.osconcepts.com/cart-2/" class="mini-cart__button header-icon" title="View your shopping cart"><span class="mini-cart-icon" data-count="0"></span></a>					<div class="widget_shopping_cart_content"></div>
+				</div>
+			
+								<div class="header-user-buttons">
+	<div class="inner">
+		<div class="tm-button-wrapper" >		<a  class="tm-button style-bottom-line-alt button-thin tm-button-sm" href="https://www.osconcepts.com/my-account-2/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Log In</span>
+			
+					</div>
+		</a>		</div><div class="tm-button-wrapper" >		<a  class="tm-button style-flat tm-button-sm button-thin button-light-primary" href="https://www.osconcepts.com/my-account-2/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Sign Up</span>
+			
+					</div>
+		</a>		</div>	</div>
+</div>
+
+											
+															</div>
+						</div>
+
+						<div id="page-open-mobile-menu" class="header-icon page-open-mobile-menu">
+	<div class="burger-icon">
+		<span class="burger-icon-top"></span>
+		<span class="burger-icon-bottom"></span>
+	</div>
+</div>
+
+						<div id="page-open-components" class="header-icon page-open-components">
+	<div class="inner">
+		<div class="circle circle-one"></div>
+		<div class="circle circle-two"></div>
+		<div class="circle circle-three"></div>
+	</div>
+</div>
+					</div>
+				</div>
+
+							</div>
+		</div>
+	</div>
+</header>
+
+				<div id="page-title-bar" class="page-title-bar page-title-bar-01">
+	<div class="page-title-bar-inner">
+		<div class="page-title-bar-bg"></div>
+
+			<div id="page-breadcrumb" class="page-breadcrumb">
+		<div class="page-breadcrumb-inner container">
+			<ul class="insight_core_breadcrumb">
+<li class="level-1 top item-home"><a href="https://www.osconcepts.com/">Home</a></li>
+<li class="level-2 sub item-posts_page"><a href="https://www.osconcepts.com/blog/">Blog</a></li>
+</ul>
+		</div>
+	</div>
+
+		<div class="container">
+			<div class="row row-xs-center">
+				<div class="col-md-12">
+					
+								<div class="page-title-bar-heading">
+				<h1 class="heading">				Latest news <br /> are on top all times				</h1>			</div>
+			
+									</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div id="page-content" class="page-content">
+		<div class="container">
+			<div class="row">
+
+				
+				<div class="page-main-content">
+						<div class="edumall-main-post edumall-grid-wrapper edumall-blog edumall-animation-zoom-in edumall-blog-grid edumall-blog-caption-style-01"
+	     data-grid="{&quot;type&quot;:&quot;masonry&quot;,&quot;columns&quot;:2,&quot;columnsTablet&quot;:2,&quot;columnsMobile&quot;:1,&quot;gutter&quot;:30}"
+	>
+		<div class="edumall-grid">
+			<div class="grid-sizer"></div>
+
+							<div class="grid-item post-item post-5018 post type-post status-publish format-standard has-post-thumbnail hentry category-business">
+					<div class="post-wrapper edumall-box">
+			<div class="post-feature post-thumbnail edumall-image">
+			<a href="https://www.osconcepts.com/business-analysis-lessons-from-cancer-diagnosis-personal-stories-from-the-1st-quarter-of-2016/">
+				<img  loading="lazy" src="https://www.osconcepts.com/wp-content/uploads/2023/09/c1a046325c7ab3b32e9112d2ad19c2b0-480x260.jpg" alt="c1a046325c7ab3b32e9112d2ad19c2b0" width="480" />			</a>
+		</div>
+	
+	<div class="post-caption">
+		<div class="post-meta">
+	<div class="inner">
+					<div class="post-date">
+				<span class="meta-icon"><i class="fa-regular fa-calendar"></i></span>
+				<span class="meta-value">March 28, 2016</span>
+			</div>
+						</div>
+</div>
+
+		<h3 class="post-title">
+	<a href="https://www.osconcepts.com/business-analysis-lessons-from-cancer-diagnosis-personal-stories-from-the-1st-quarter-of-2016/">Business Analysis Lessons from Cancer Diagnosis: Personal Stories from the 1st Quarter of 2016</a>
+</h3>
+
+		<div class="post-excerpt">
+			<p>Prologue The Doctor’s face betrayed no emotion as he listened thoughtfully &hellip;</p>	</div>
+
+		<div class="tm-button-wrapper post-read-more" >		<a  class="tm-button style-flat tm-button-xs button-grey-white icon-right" href="https://www.osconcepts.com/business-analysis-lessons-from-cancer-diagnosis-personal-stories-from-the-1st-quarter-of-2016/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Read more</span>
+			
+							<span class="button-icon"><i class="fa-light fa-long-arrow-right"></i></span>
+					</div>
+		</a>		</div>	</div>
+</div>
+				</div>
+							<div class="grid-item post-item post-5015 post type-post status-publish format-standard has-post-thumbnail hentry category-business">
+					<div class="post-wrapper edumall-box">
+			<div class="post-feature post-thumbnail edumall-image">
+			<a href="https://www.osconcepts.com/never-walk-alone-the-tale-of-two-snakes-why-traceability-matters/">
+				<img  loading="lazy" src="https://www.osconcepts.com/wp-content/uploads/2023/09/edb60e7b05bce63941d6566229601741-480x260.png" alt="edb60e7b05bce63941d6566229601741" width="480" />			</a>
+		</div>
+	
+	<div class="post-caption">
+		<div class="post-meta">
+	<div class="inner">
+					<div class="post-date">
+				<span class="meta-icon"><i class="fa-regular fa-calendar"></i></span>
+				<span class="meta-value">August 24, 2015</span>
+			</div>
+						</div>
+</div>
+
+		<h3 class="post-title">
+	<a href="https://www.osconcepts.com/never-walk-alone-the-tale-of-two-snakes-why-traceability-matters/">Never Walk Alone, the Tale of Two Snakes: Why Traceability Matters</a>
+</h3>
+
+		<div class="post-excerpt">
+			<p>Prologue It was early Sunday morning; as I had woken up &hellip;</p>	</div>
+
+		<div class="tm-button-wrapper post-read-more" >		<a  class="tm-button style-flat tm-button-xs button-grey-white icon-right" href="https://www.osconcepts.com/never-walk-alone-the-tale-of-two-snakes-why-traceability-matters/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Read more</span>
+			
+							<span class="button-icon"><i class="fa-light fa-long-arrow-right"></i></span>
+					</div>
+		</a>		</div>	</div>
+</div>
+				</div>
+							<div class="grid-item post-item post-5012 post type-post status-publish format-standard has-post-thumbnail hentry category-business">
+					<div class="post-wrapper edumall-box">
+			<div class="post-feature post-thumbnail edumall-image">
+			<a href="https://www.osconcepts.com/eight-hours-at-the-gas-station-mob-lessons-for-the-business-analyst/">
+				<img  loading="lazy" src="https://www.osconcepts.com/wp-content/uploads/2023/09/c1fcda440560b6d4e7a6d2eb844d14a0-480x260.jpg" alt="c1fcda440560b6d4e7a6d2eb844d14a0" width="480" />			</a>
+		</div>
+	
+	<div class="post-caption">
+		<div class="post-meta">
+	<div class="inner">
+					<div class="post-date">
+				<span class="meta-icon"><i class="fa-regular fa-calendar"></i></span>
+				<span class="meta-value">May 7, 2015</span>
+			</div>
+						</div>
+</div>
+
+		<h3 class="post-title">
+	<a href="https://www.osconcepts.com/eight-hours-at-the-gas-station-mob-lessons-for-the-business-analyst/">Eight Hours at the Gas Station: Mob Lessons for the Business Analyst</a>
+</h3>
+
+		<div class="post-excerpt">
+			<p>Prologue It was some minutes past 4 am, the first light &hellip;</p>	</div>
+
+		<div class="tm-button-wrapper post-read-more" >		<a  class="tm-button style-flat tm-button-xs button-grey-white icon-right" href="https://www.osconcepts.com/eight-hours-at-the-gas-station-mob-lessons-for-the-business-analyst/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Read more</span>
+			
+							<span class="button-icon"><i class="fa-light fa-long-arrow-right"></i></span>
+					</div>
+		</a>		</div>	</div>
+</div>
+				</div>
+							<div class="grid-item post-item post-5009 post type-post status-publish format-standard has-post-thumbnail hentry category-business">
+					<div class="post-wrapper edumall-box">
+			<div class="post-feature post-thumbnail edumall-image">
+			<a href="https://www.osconcepts.com/racing-against-a-porsche-a-business-analysis-perspective-on-ebola-virus-disease/">
+				<img  loading="lazy" src="https://www.osconcepts.com/wp-content/uploads/2023/09/44a308b98c78f834c8a0915213889d97-480x260.jpg" alt="24 Hours of Le Mans 2021" width="480" />			</a>
+		</div>
+	
+	<div class="post-caption">
+		<div class="post-meta">
+	<div class="inner">
+					<div class="post-date">
+				<span class="meta-icon"><i class="fa-regular fa-calendar"></i></span>
+				<span class="meta-value">August 18, 2014</span>
+			</div>
+						</div>
+</div>
+
+		<h3 class="post-title">
+	<a href="https://www.osconcepts.com/racing-against-a-porsche-a-business-analysis-perspective-on-ebola-virus-disease/">Racing against a Porsche: A Business Analysis Perspective on Ebola Virus Disease</a>
+</h3>
+
+		<div class="post-excerpt">
+			<p>Prologue It was an early Sunday afternoon in August, and I &hellip;</p>	</div>
+
+		<div class="tm-button-wrapper post-read-more" >		<a  class="tm-button style-flat tm-button-xs button-grey-white icon-right" href="https://www.osconcepts.com/racing-against-a-porsche-a-business-analysis-perspective-on-ebola-virus-disease/">		<div class="button-content-wrapper">
+
+			
+							<span class="button-text">Read more</span>
+			
+							<span class="button-icon"><i class="fa-light fa-long-arrow-right"></i></span>
+					</div>
+		</a>		</div>	</div>
+</div>
+				</div>
+					</div>
+
+		<div class="edumall-grid-pagination">
+					</div>
+	</div>
+
+				</div>
+
+							<div class="page-sidebar page-sidebar-right">
+				<div class="page-sidebar-inner tm-sticky-column" itemscope="itemscope">
+					<div class="page-sidebar-content">
+						
+						<div id="search-1" class="widget-search-form widget widget_search"><p class="widget-title heading">Search</p><form role="search" method="get" class="search-form" action="https://www.osconcepts.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field"
+		       placeholder="Search&hellip;"
+		       value="" name="s"
+		       title="Search for:"/>
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="search-btn-icon fa-solid fa-search"></span>
+		<span class="search-btn-text">
+			Search		</span>
+	</button>
+</form>
+</div><div id="categories-1" class="widget widget_categories"><p class="widget-title heading">Categories</p>
+			<ul>
+					<li class="cat-item cat-item-57"><a href="https://www.osconcepts.com/category/business/">Business <span class="count">(4)</span></a>
+</li>
+			</ul>
+
+			</div><div id="edumall-wp-widget-posts-1" class="widget edumall-wp-widget-posts"><p class="widget-title heading">Latest Posts</p>				<div class="post-list edumall-animation-zoom-in">
+																	<div class="post-item edumall-box post-5018 post type-post status-publish format-standard has-post-thumbnail hentry category-business" >
+															<div class="post-widget-thumbnail edumall-image">
+									<a href="https://www.osconcepts.com/business-analysis-lessons-from-cancer-diagnosis-personal-stories-from-the-1st-quarter-of-2016/">
+																					<img  loading="lazy" src="https://www.osconcepts.com/wp-content/uploads/2023/09/c1a046325c7ab3b32e9112d2ad19c2b0-100x80.jpg" alt="c1a046325c7ab3b32e9112d2ad19c2b0" width="100" />																																			<div class="post-widget-overlay-categories">
+				<span>Business</span>			</div>
+																						</a>
+								</div>
+														<div class="post-widget-info">
+								<h5 class="post-widget-title">
+									<a href="https://www.osconcepts.com/business-analysis-lessons-from-cancer-diagnosis-personal-stories-from-the-1st-quarter-of-2016/" class="link-in-title">Business Analysis Lessons from Cancer Diagnosis: Personal Stories from the 1st Quarter of 2016</a>
+								</h5>
+																	<span class="post-date style-1">March 28, 2016</span>
+															</div>
+						</div>
+																	<div class="post-item edumall-box post-5015 post type-post status-publish format-standard has-post-thumbnail hentry category-business" >
+															<div class="post-widget-thumbnail edumall-image">
+									<a href="https://www.osconcepts.com/never-walk-alone-the-tale-of-two-snakes-why-traceability-matters/">
+																					<img  loading="lazy" src="https://www.osconcepts.com/wp-content/uploads/2023/09/edb60e7b05bce63941d6566229601741-100x80.png" alt="edb60e7b05bce63941d6566229601741" width="100" />																																			<div class="post-widget-overlay-categories">
+				<span>Business</span>			</div>
+																						</a>
+								</div>
+														<div class="post-widget-info">
+								<h5 class="post-widget-title">
+									<a href="https://www.osconcepts.com/never-walk-alone-the-tale-of-two-snakes-why-traceability-matters/" class="link-in-title">Never Walk Alone, the Tale of Two Snakes: Why Traceability Matters</a>
+								</h5>
+																	<span class="post-date style-1">August 24, 2015</span>
+															</div>
+						</div>
+																	<div class="post-item edumall-box post-5012 post type-post status-publish format-standard has-post-thumbnail hentry category-business" >
+															<div class="post-widget-thumbnail edumall-image">
+									<a href="https://www.osconcepts.com/eight-hours-at-the-gas-station-mob-lessons-for-the-business-analyst/">
+																					<img  loading="lazy" src="https://www.osconcepts.com/wp-content/uploads/2023/09/c1fcda440560b6d4e7a6d2eb844d14a0-100x80.jpg" alt="c1fcda440560b6d4e7a6d2eb844d14a0" width="100" />																																			<div class="post-widget-overlay-categories">
+				<span>Business</span>			</div>
+																						</a>
+								</div>
+														<div class="post-widget-info">
+								<h5 class="post-widget-title">
+									<a href="https://www.osconcepts.com/eight-hours-at-the-gas-station-mob-lessons-for-the-business-analyst/" class="link-in-title">Eight Hours at the Gas Station: Mob Lessons for the Business Analyst</a>
+								</h5>
+																	<span class="post-date style-1">May 7, 2015</span>
+															</div>
+						</div>
+														</div>
+			</div>
+											</div>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+	</div>
+</div><!-- /.content-wrapper -->
+
+
+<div id="page-footer-wrapper" class="page-footer-wrapper">
+	<div class="page-footer simple-footer" id="page-footer">
+	<div class="container">
+		<div class="row row-xs-center">
+			<div class="col-md-12">
+				<div class="footer-text">
+										© Copyrights 2023 OS Concepts All rights reserved.				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+</div><!-- /.site -->
+
+<div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div>			<div id="popup-pre-loader" class="popup-pre-loader">
+				<div class="popup-load-inner">
+					<div class="popup-loader-wrap">
+						<div class="wrap-2">
+							<div class="inner">
+								<div class="sk-wrap sk-circle">
+	<div class="sk-circle1 sk-child"></div>
+	<div class="sk-circle2 sk-child"></div>
+	<div class="sk-circle3 sk-child"></div>
+	<div class="sk-circle4 sk-child"></div>
+	<div class="sk-circle5 sk-child"></div>
+	<div class="sk-circle6 sk-child"></div>
+	<div class="sk-circle7 sk-child"></div>
+	<div class="sk-circle8 sk-child"></div>
+	<div class="sk-circle9 sk-child"></div>
+	<div class="sk-circle10 sk-child"></div>
+	<div class="sk-circle11 sk-child"></div>
+	<div class="sk-circle12 sk-child"></div>
+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="edumall-popup popup-user-login" id="popup-user-login"
+     data-template="template-parts/popup/popup-content-login">
+	<div class="popup-overlay"></div>
+	<div class="popup-content">
+		<div class="button-close-popup"></div>
+		<div class="popup-content-wrap"><div class="popup-content-inner"></div></div>
+	</div>
+</div>
+
+<div class="edumall-popup popup-user-register" id="popup-user-register"
+     data-template="template-parts/popup/popup-content-register">
+	<div class="popup-overlay"></div>
+	<div class="popup-content">
+		<div class="button-close-popup"></div>
+		<div class="popup-content-wrap"><div class="popup-content-inner"></div></div>
+	</div>
+</div>
+
+<div class="edumall-popup popup-lost-password" id="popup-user-lost-password"
+     data-template="template-parts/popup/popup-content-lost-password">
+	<div class="popup-overlay"></div>
+	<div class="popup-content">
+		<div class="button-close-popup"></div>
+		<div class="popup-content-wrap"><div class="popup-content-inner"></div></div>
+	</div>
+</div>
+							<a class="page-scroll-up" id="page-scroll-up">
+					<i class="arrow-top fa-light fa-long-arrow-up"></i>
+					<i class="arrow-bottom fa-light fa-long-arrow-up"></i>
+				</a>
+									<div id="popup-search" class="page-popup page-search-popup">
+				<div id="search-popup-close" class="popup-close-button">
+					<div class="burger-icon">
+						<span class="burger-icon-top"></span>
+						<span class="burger-icon-bottom"></span>
+					</div>
+				</div>
+
+				<div class="page-search-popup-content">
+					<form role="search" method="get" class="search-form" action="https://www.osconcepts.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field"
+		       placeholder="Search&hellip;"
+		       value="" name="s"
+		       title="Search for:"/>
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="search-btn-icon fa-solid fa-search"></span>
+		<span class="search-btn-text">
+			Search		</span>
+	</button>
+</form>
+				</div>
+			</div>
+						<div id="page-mobile-main-menu" class="page-mobile-main-menu"
+			     data-background="">
+				<div class="inner">
+					<div class="page-mobile-menu-header">
+						<div class="page-mobile-popup-logo page-mobile-menu-logo">
+										<a href="https://www.osconcepts.com/" rel="home">
+				<img src="https://www.osconcepts.com/wp-content/uploads/2021/01/os-concepts-logo-148x34.png"
+				     alt="OS Concepts"
+				     width="148"/>
+			</a>
+									</div>
+						<div id="page-close-mobile-menu" class="page-close-mobile-menu">
+							<div class="burger-icon burger-icon-close">
+								<span class="burger-icon-top"></span>
+								<span class="burger-icon-bottom"></span>
+							</div>
+						</div>
+					</div>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-300 current_page_item current_page_parent menu-item-5849 level-1"><a href="https://www.osconcepts.com/blog/"><div class="menu-item-wrap"><span class="menu-item-title">Blog</span></div></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4857 level-1"><a href="https://www.osconcepts.com/contact-us/"><div class="menu-item-wrap"><span class="menu-item-title">Contact us</span></div></a></li>
+</ul>					</div>
+				</div>
+			</div>
+						<script type='text/javascript'>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css' media='all' />
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/polyfill/intersection-observer.min.js" id="intersection-observer-js"></script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js" id="sourcebuster-js-js"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0000000000000000818030539140313095458623138256371021270751953125e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/www.osconcepts.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+</script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js" id="wc-order-attribution-js"></script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woo-smart-wishlist/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" id="perfect-scrollbar-js"></script>
+<script id="woosw-frontend-js-extra">
+var woosw_vars = {"ajax_url":"https:\/\/www.osconcepts.com\/wp-admin\/admin-ajax.php","nonce":"a65b6d9261","menu_action":"open_page","reload_count":"no","perfect_scrollbar":"yes","wishlist_url":"https:\/\/www.osconcepts.com\/wishlist\/","button_action":"list","message_position":"right-top","button_action_added":"popup","empty_confirm":"This action cannot be undone. Are you sure?","delete_confirm":"This action cannot be undone. Are you sure?","copied_text":"Copied the wishlist link:","menu_text":"Wishlist","button_text":"Add to wishlist","button_text_added":"Browse wishlist","button_normal_icon":"woosw-icon-5","button_added_icon":"woosw-icon-8","button_loading_icon":"woosw-icon-4"};
+</script>
+<script src="https://www.osconcepts.com/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js" id="woosw-frontend-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/headroom.min.js" id="headroom-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/smooth-scroll-for-web/SmoothScroll.min.js" id="smooth-scroll-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/lightGallery/js/lightgallery-all.min.js" id="lightgallery-js"></script>
+<script src="https://www.osconcepts.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/powertip/js/jquery.powertip.min.js" id="powertip-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/smooth-scroll/jquery.smooth-scroll.min.js" id="jquery-smooth-scroll-js"></script>
+<script src="https://www.osconcepts.com/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/swiper/js/swiper.min.js" id="swiper-js"></script>
+<script id="edumall-swiper-wrapper-js-extra">
+var $edumallSwiper = {"fractionPrefixText":"Show","prevText":"Prev","nextText":"Next"};
+var $edumallSwiper = {"fractionPrefixText":"Show","prevText":"Prev","nextText":"Next"};
+var $edumallSwiper = {"fractionPrefixText":"Show","prevText":"Prev","nextText":"Next"};
+</script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/swiper-wrapper.min.js" id="edumall-swiper-wrapper-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/smartmenus/jquery.smartmenus.min.js" id="smartmenus-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/growl/js/jquery.growl.min.js" id="growl-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/modal.min.js" id="edumall-modal-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/nice-select.min.js" id="edumall-nice-select-js"></script>
+<script id="edumall-script-js-extra">
+var $edumall = {"ajaxurl":"https:\/\/www.osconcepts.com\/wp-admin\/admin-ajax.php","edumall_ajax_url":"\/?edumall-ajax=%%endpoint%%","header_sticky_enable":"1","header_sticky_height":"80","scroll_top_enable":"1","light_gallery_auto_play":"0","light_gallery_download":"1","light_gallery_full_screen":"1","light_gallery_zoom":"1","light_gallery_thumbnail":"1","light_gallery_share":"1","mobile_menu_breakpoint":"1199","isRTL":"","isProduct":"","productFeatureStyle":"slider","noticeCookieEnable":"0","noticeCookieConfirm":"no","noticeCookieMessages":"We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.<a id=\"tm-button-cookie-notice-ok\" class=\"tm-button tm-button-xs tm-button-full-wide style-flat\">Ok, got it!<\/a>","noticeCartUrl":"https:\/\/www.osconcepts.com\/cart-2\/","noticeCartText":"View Cart","noticeAddedCartText":"added to cart!","countdownDaysText":"Days","countdownHoursText":"Hours","countdownMinutesText":"Mins","countdownSecondsText":"Secs"};
+</script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/main.min.js" id="edumall-script-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/woo/general.min.js" id="edumall-woo-general-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/matchHeight/jquery.matchHeight-min.js" id="matchheight-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/isotope.pkgd.min.js" id="isotope-masonry-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/packery-mode/packery-mode.pkgd.min.js" id="isotope-packery-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/grid-layout.min.js" id="edumall-grid-layout-js"></script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/libs/validate/jquery.validate.min.js" id="validate-js"></script>
+<script id="edumall-login-js-extra">
+var $edumallLogin = {"validatorMessages":{"required":"This field is required","remote":"Please fix this field","email":"A valid email address is required","url":"Please enter a valid URL","date":"Please enter a valid date","dateISO":"Please enter a valid date (ISO)","number":"Please enter a valid number.","digits":"Please enter only digits.","creditcard":"Please enter a valid credit card number","equalTo":"Please enter the same value again","accept":"Please enter a value with a valid extension","maxlength":"Please enter no more than {0} characters","minlength":"Please enter at least {0} characters","rangelength":"Please enter a value between {0} and {1} characters long","range":"Please enter a value between {0} and {1}","max":"Please enter a value less than or equal to {0}","min":"Please enter a value greater than or equal to {0}"}};
+</script>
+<script src="https://www.osconcepts.com/wp-content/themes/edumall/assets/js/login.min.js" id="edumall-login-js"></script>
+</body>
+</html>
